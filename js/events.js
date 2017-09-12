@@ -4,7 +4,7 @@ function getIt () {
 }
 
 function frameIt () {
-
+  document.images[0].style.border = 'red'
 }
 
 function pressIt () {
