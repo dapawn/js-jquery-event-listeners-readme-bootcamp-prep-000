@@ -4,7 +4,8 @@ function getIt () {
 }
 
 function frameIt () {
-  document.images[0].style.border = 'red'
+  document.images[0].style.border = 'red';
+  document.images[0].class = 'tasty';
 }
 
 function pressIt () {
